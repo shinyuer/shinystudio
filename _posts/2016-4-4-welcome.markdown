@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to 阳光工作是!"
+title:  "Welcome to 阳光工作室!"
 date:   2016-04-4 20:20:20 +0800
 categories:  update
 ---

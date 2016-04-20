@@ -4,7 +4,8 @@
 title: 阳光工作室
 email: 35998585@qq.com
 baseurl: "/shinystudio"
-url: "http://www.shinehouse.net" 
+url: "http://www.shinehouse.net"
+drurl:"http://shinyuer.github.io/shinystudio"
 
 # Build settings
 markdown: kramdown

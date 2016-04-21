@@ -7,7 +7,7 @@ layout: null
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.drurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.drurl  }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ "/feed.xml" | prepend: "http://shinyuer.github.io/shinystudio"  }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -16,9 +16,9 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.drurl }}</link>
+        <link>{{ post.url | prepend: "http://shinyuer.github.io/shinystudio" }}</link>
         <h1></h1>
-        <guid isPermaLink="true">{{ post.url | prepend: site.drurl  }}</guid>
+        <guid isPermaLink="true">{{ post.url | prepend: "http://shinyuer.github.io/shinystudio"  }}</guid>
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}

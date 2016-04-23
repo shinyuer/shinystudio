@@ -7,9 +7,9 @@ categories:  update
 
 Some things I do
 
-PC前端开发，移动网站开发（html5、angular、bootstrap、微信等）。
-.NET整站网站开发。
-微信服务公众号相关开发。
+PC前端开发，移动网站开发（html5、angular、bootstrap、微信等）、
+.NET整站网站开发、
+微信服务公众号相关开发、
 android，app开发。
 
 
